@@ -2,7 +2,7 @@
     
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "cat.numancia.pong_sergi_curtu"
+        id          = "cat.numancia.pong_pau_tarrasa"
         versionCode = "1" 
         version     = "0.0.01" >
 	
@@ -10,14 +10,14 @@
 
 	
 
-   <name>Pong SCB</name>
+   <name>Pong PTC</name>
 
    <description>
-       Un pong fet per alumnes de 4t del Numància
+       Un pong fet per Pau Tarrasa alumne de 4t del Numància
     </description>
 
-    <author href="https://numancia.cat/intranet" email="sergi.curtu@numancia.cat">
-       Sergi Curtu
+    <author href="https://numancia.cat/intranet" email="ptarrasa19@iesnumancia.cat">
+       Pau Tarrasa
     </author>
 
 	<content src="index.html"/>
