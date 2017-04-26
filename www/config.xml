@@ -2,34 +2,36 @@
     
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "cat.numancia.pong_pau_tarrasa"
-        versionCode = "4" 
-        version     = "0.1.00" >
+        id          = "cat.numancia.pong_sergi_curtu"
+        versionCode = "99" 
+        version     = "0.9.9" >
 	
 	<!-- versionCode is optional and Android only -->
 
 	
 
-   <name>Pong PTC</name>
+   <name>Pong SCB</name>
 
    <description>
-       Un pong fet per Pau Tarrasa alumne de 4t del Numància
+       Un pong fet per alumnes de 4t del Numància
     </description>
 
-    <author href="https://numancia.cat/intranet" email="ptarrasa19@iesnumancia.cat">
-       Pau Tarrasa
+    <author href="https://numancia.cat/intranet" email="sergi.curtu@numancia.cat">
+       Sergi Curtu
     </author>
 
-	<content src="index.html"/>
+    <!-- EN ARRENCAR L'APP LLLEGIRÀ L'ARXIU INDEX.HTML-->	
+    <content src="index.html"/>
  
     <feature name="http://api.phonegap.com/1.0/device" />
 	<feature name="http://api.phonegap.com/1.0/network"/>
 	<feature name="http://api.phonegap.com/1.0/notification"/>
 
    	<!-- Customize your app and platform with the preference element. -->
-   	<preference name="phonegap-version" value="cli-6.3.0" />
+	<!-- 6.3.0. -> 6.5.0 16.04.2017 -->
+   	<preference name="phonegap-version" value="cli-6.5.0" />
    	
-   	<!-- Per evitar gir de pantalla -->
+   	<!-- Per evitar gir de pantalla portait -> landscape 16.04.2017 ? no , millor així -->
 	<preference name="orientation"      value="portrait" />
 	
 	<preference name="android-minSdkVersion" value="14" /> <!-- 16.10.2016  android: MIN SDK version supported on the target device. MAX version is blank by default. -->
@@ -72,7 +74,7 @@
 	<gap:plugin name="cordova-plugin-statusbar" source='npm' />
 	<gap:plugin name="cordova-plugin-google-analytics" source='npm' />
 	
-	<!-- no funciones des de novembre 2016 
+	<!-- no funciona des de novembre 2016 
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	<gap:plugin name="com.adobe.plugins.gaplugin" /> 
 	-->
